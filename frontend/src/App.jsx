@@ -14,6 +14,7 @@ function App() {
           <div className="pages">
             <Routes>
               <Route path="/" element={<Home />} />
+              {/* <Route path="/login" element={<LoginPage />} /> */}
             </Routes>
           </div>
         </BrowserRouter>
